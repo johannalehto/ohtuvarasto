@@ -69,3 +69,5 @@ class TestVarasto(unittest.TestCase):
     def test_palauta_merkkijono_oikein(self):
         self.varasto.lisaa_varastoon(5)
         self.assertEqual(str(self.varasto), "saldo = 5, vielä tilaa 5")
+
+# lisätään muutos
